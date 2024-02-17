@@ -1,0 +1,294 @@
+.about,
+.services,
+.skills,
+.teams,
+.contact,
+footer {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* services section styling */
+.services,
+.teams {
+    color: #fff;
+    background: #111;
+    padding: 20px;
+    border: 2px double crimson;
+    border-radius: 5px;
+}
+
+.services .title::before,
+.teams .title::before {
+    background: #fff;
+
+}
+
+.teams a {
+    margin: 10px;
+}
+
+/* teams section styling */
+
+.teams .carousel .card {
+    margin: auto;
+    background: #222;
+    border-radius: 6px;
+    padding: 25px ;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    display: grid;
+    place-items: center;
+    margin: 10px;
+    height: auto;
+}
+
+.teams .carousel .card:hover {
+    background: crimson;
+}
+
+.teams .carousel .card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover .box {
+    transform: scale(1.02);
+}
+
+.teams .carousel .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.teams .carousel .card img {
+    min-height: 250px;
+    min-width: 150px;
+    height: auto;
+    width: auto;
+    object-fit: cover;
+    border-radius: 5%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover img {
+    border-color: #fff;
+    transform: scale(1.1, 1.1);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Josefin+Sans:wght@200&family=Protest+Riot&display=swap');
+
+body {
+    background-color: #dab097;
+    background-image: linear-gradient(315deg, #dab097 0%, #f1c56c 74%);
+    font-family: 'Bebas Neue', sans-serif;
+    color: crimson;
+}
+
+.container {
+    text-align: center;
+    /* min-height: 1000px; */
+    height: auto;
+    border-top: 1px double salmon;
+    border-bottom: 1px double salmon;
+
+}
+
+footer,
+header h1,
+h3 {
+    text-align: center;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #faf1b8;
+}
+
+header h1,
+h3 {
+    text-align: center;
+
+}
+
+header {
+    border: 1px solid salmon;
+    background-color: #faf1b8;
+}
+
+.title {
+    margin: 0px 25px 25px 25px;
+    text-decoration: underline;
+}
+
+.container img {
+    border: 1px solid crimson;
+    border-radius: 3px;
+    height: 180px;
+    width: 180px;
+}
+
+body {
+    background-color: #dab097;
+    background-image: linear-gradient(315deg, #dab097 0%, #f1c56c 74%);
+    font-family: 'Poppins', sans-serif;
+    color: crimson;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    border-top: 1px double salmon;
+    border-bottom: 1px double salmon;
+    padding: 20px;
+    background-color: #faf1b8;
+}
+
+header {
+    border: 1px solid salmon;
+    background-color: #faf1b8;
+    padding: 20px;
+}
+
+nav {
+    background-color: #faf1b8;
+}
+
+nav a {
+    color: crimson;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+/* Main content styles */
+h1,
+h3 {
+    color: crimson;
+}
+
+.container img {
+    border: 5px solid crimson;
+    border-radius: 25%;
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+p {
+    color: #333;
+}
+
+/* Teams section styles */
+.teams {
+    color: #fff;
+    background: #111;
+    padding: 20px;
+    border: 2px double crimson;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.teams .title::before {
+    background: #fff;
+}
+
+.teams a {
+    margin: 10px;
+}
+
+.carousel .card {
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    display: grid;
+    place-items: center;
+    margin: 10px;
+    height: auto;
+}
+
+.carousel .card:hover {
+    background: crimson;
+}
+
+.carousel .card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.carousel .card:hover .box {
+    transform: scale(1.05);
+}
+
+.carousel .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.carousel .card img {
+    min-height: 250px;
+    min-width: 150px;
+    height: auto;
+    width: auto;
+    object-fit: cover;
+    border-radius: 5%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.carousel .card:hover img {
+    border-color: #fff;
+    transform: scale(1.2, 1.2);
+}
+
+/* Footer styles */
+footer {
+    background-color: #faf1b8;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: crimson;
+}
+
+.scrolling-cards {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.scrolling-cards .card {
+    flex: 0 0 auto;
+    margin-right: 15px;
+
+}
+
+.scrolling-cards .row {
+    display: inline-block;
+    animation: marquee 10s linear infinite;
+}
+
